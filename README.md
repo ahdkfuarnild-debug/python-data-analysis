@@ -7,6 +7,19 @@ A practical Python project for analyzing sales data and generating business-focu
 
 What it does
 
+Sample results
+
+The analysis of the included synthetic sales dataset produced the following example results:
+
+* 500 orders
+* 2,255 units sold
+* $71,221.79 total revenue
+* $36,753.51 total profit
+* 51.60% profit margin
+* Top category: Electronics
+* Top product: Headphones
+
+
 * Loads and validates sales data from CSV files
 * Cleans and processes the dataset
 * Calculates revenue, cost, profit, and key performance indicators (KPIs)
