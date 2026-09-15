@@ -1,5 +1,8 @@
 Python Data Analysis Project
 
+[![Tests](https://github.com/ahdkfuarnild-debug/python-data-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/ahdkfuarnild-debug/python-data-analysis/actions/workflows/tests.yml)
+[![Python](https://img.shields.io/badge/Python-3.13-blue)](https://www.python.org/)
+
 A practical Python project for analyzing sales data and generating business-focused insights.
 
 What it does
