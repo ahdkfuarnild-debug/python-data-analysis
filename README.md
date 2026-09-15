@@ -1,27 +1,72 @@
-# Python Data Analysis Project
+Python Data Analysis Project
 
-A ready-to-use Python project for analyzing sales data.
+A practical Python project for analyzing sales data and generating business-focused insights.
 
-## What it does
-- Loads CSV sales data
-- Cleans and validates the data
-- Calculates revenue, profit, and KPIs
-- Produces summary tables
-- Generates charts and a text report
+What it does
 
-## Quick start
+* Loads and validates sales data from CSV files
+* Cleans and processes the dataset
+* Calculates revenue, cost, profit, and key performance indicators (KPIs)
+* Generates summary tables by product, category, and month
+* Creates revenue visualizations
+* Produces a text-based analysis report
+* Includes automated tests with pytest
+* Uses GitHub Actions for continuous testing
 
-```bash
+Quick start
+
 pip install -r requirements.txt
 python main.py
-```
 
-The generated outputs are saved in `reports/`.
+The generated reports, summary tables, and charts are saved in reports/.
 
-## Project structure
+Project structure
 
-- `main.py` — entry point
-- `src/analysis.py` — analysis logic
-- `data/sales.csv` — example dataset
-- `reports/` — generated results
-- `tests/` — basic tests
+python-data-analysis/
+├── .github/
+│   └── workflows/
+│       └── tests.yml
+├── data/
+│   └── sales.csv
+├── reports/
+│   ├── category_summary.csv
+│   ├── product_summary.csv
+│   ├── monthly_summary.csv
+│   ├── monthly_revenue.png
+│   ├── revenue_by_category.png
+│   └── report.txt
+├── src/
+│   ├── _init_.py
+│   └── analysis.py
+├── tests/
+│   └── test_analysis.py
+├── .gitignore
+├── LICENSE
+├── main.py
+├── requirements.txt
+└── README.md
+
+Testing
+
+Run the test suite with:
+
+python -m pytest
+
+The project also runs automated tests through GitHub Actions whenever changes are pushed or a pull request is opened.
+
+Dataset
+
+The included sales dataset is synthetic/demo data created for development, testing, and demonstration purposes. It does not represent real customers or real business transactions.
+
+Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Pytest
+* GitHub Actions
+
+Purpose
+
+This project demonstrates a reproducible workflow for transforming sales data into structured business reports, performance metrics, and visual insights
